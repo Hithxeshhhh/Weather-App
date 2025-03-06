@@ -1,0 +1,34 @@
+.sidebar {
+    position: fixed; /* Keeps the sidebar in place while scrolling */
+    left: 0; /* Align to the left of the viewport */
+    top: 0; /* Start from the top */
+    height: 96%; /* Full height of the viewport */
+    width: 85px; /* Sidebar width */
+    background-color: #17293b;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect for the footer */
+   
+  }
+  .sidebarInfo{
+    color: white;
+  }
+  
+  .topCities{
+    color: white;
+    text-align: center;
+    margin-top: 4em;
+  }
+  .weatherSidebar{
+    color: white;
+    text-align: center;
+    margin-top: 4em;
+  }
+  .scIcon{
+    height: 40px;
+    align-items: center;
+    margin: 0 auto;
+  }

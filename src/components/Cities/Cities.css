@@ -1,0 +1,77 @@
+.search{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 15%;
+}
+input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    
+}
+button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.searchIcon{
+    height: 20px;
+    
+}
+.material-symbols-outlined{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sampleCities{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+   
+   
+}
+.citiesList{
+    height: 150px;
+    width: 65%;
+    background-color:#17293b;
+    border-radius: 25px;
+    margin-top: 1em;
+    display: flex; /* Arrange elements in a row */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; 
+    color: white;
+    font-size: 18pt;
+    border: 1px solid #3c82bc;
+
+}
+.citiesList img{
+    height: 150px; /* Set image height */
+     /* Ensure the image scales proportionally */
+    margin-right: 10px; 
+}
+.city-name {
+    flex: 1; /* Allow city name to take up remaining space */
+    text-align: left; /* Align city name to the left */
+    margin: 0; /* Remove default margins */
+  }
+  .temp {
+    margin: 0; /* Remove default margins */
+    font-weight: bold; /* Make the temperature bold */
+    white-space: nowrap; /* Prevent the temperature text from wrapping */
+    padding-right: 20px; /* Add space between the temperature and the edge of the container */
+}
+  

@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center align content horizontally */
+   /* Optional background color */
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 85%; /* Set width as needed */
+    height: 100vh; /* Full height of the viewport */
+    margin: 1em auto; /* Center the header in the page */
+    margin-right: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  /* Header Info section */
+  .headerInfo {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-rows: auto auto auto; /* Rows for each element */
+    text-align: center;
+    margin-bottom: 1em; /* Space between sections */
+    margin: 0.3em 0; /* Space between paragraph elements */
+    text-align: center; /* Center the text */
+    background-color:#17293b; /* Background color for the footer card */
+    padding: 1em; /* Internal padding */
+    border-radius: 0.5em; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect for the footer */
+    width: 100%; /* Full width of the parent container */
+    height: 400px;
+   font-size: 30pt;
+   color: white;
+    
+  }
+  .city {
+    grid-row: 1; /* First item (city) stays in the first row */
+    margin-right: 900px;
+  }
+  
+  .temperature {
+    grid-row: 3; /* Third item (temperature) stays in the third row */
+    margin-right: 900px;
+    margin-top: -40px;
+  }
+  
+  .weatherImage {
+    grid-row: 2; /* Second item (image) stays in the second row */
+    margin-left: 700px; /* Indentation for the image */
+    justify-self: center; /* Center the image horizontally within the grid */
+    height: 300px;
+    margin-top: -60px;
+  }
+  .footer {
+  background-color:#17293b; /* Background color for the footer card */
+  padding: 1em; /* Internal padding */
+  border-radius: 0.5em; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect for the footer */
+  width: 100%; /* Full width of the parent container */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  gap: 15px; /* Adjust gap between the items */ /* Center align footer content horizontally */
+  margin-top: 1em; /* Space between the header and footer */
+  height: 300px;
+  align-items: center;
+
+}
+
+.footer p {
+  display: flex;
+  align-items: center; /* Center the text */
+  color: white; /* Text color */
+  font-size: larger;
+  font-family: 'Roboto', sans-serif; /* Optional font */
+
+}
+
+/* Optional styling for image */
+.headerInfo img {
+   /* Set image width */
+  /* Set image height */
+  object-fit: contain; /* Ensure the image scales proportionally */
+}
+.footer img {
+  width: 50px; /* Set image width */
+  height: 50px; /* Set image height */
+  object-fit: contain; /* Ensure the image scales proportionally */
+  margin-right: 20px; 
+}
+

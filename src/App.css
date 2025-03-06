@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  
+}
+
+
+
+/* Footer section as a separate card */
